@@ -1,0 +1,6 @@
+Nand ce is connected to ema cs
+Flash base address at 0x62000000 NANDStart, length 0x2000000
+2048 bytes per page and 64 pages per block
+Flash writer programs data at block 1
+Ref LOCAL_writeData and LOCAL_readData in nandwriter project
+NANDWIDTH_16
