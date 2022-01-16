@@ -5,9 +5,13 @@ Nand access
   Flash writer programs data at block 1
   Ref LOCAL_writeData and LOCAL_readData in nandwriter project
   NANDWIDTH_16
+
 Uart
 	for checking data integrity use large data buffer to collect all the data
 	edma 2 bytes
 	parameter structure to initialization
 	isr instead of callback
+	
+Assembly
+	linear assembly
 	
