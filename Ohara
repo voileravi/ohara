@@ -1,6 +1,13 @@
-Nand ce is connected to ema cs
-Flash base address at 0x62000000 NANDStart, length 0x2000000
-2048 bytes per page and 64 pages per block
-Flash writer programs data at block 1
-Ref LOCAL_writeData and LOCAL_readData in nandwriter project
-NANDWIDTH_16
+Nand access
+	Nand ce is connected to ema cs
+  Flash base address at 0x62000000 NANDStart, length 0x2000000
+  2048 bytes per page and 64 pages per block
+  Flash writer programs data at block 1
+  Ref LOCAL_writeData and LOCAL_readData in nandwriter project
+  NANDWIDTH_16
+Uart
+	for checking data integrity use large data buffer to collect all the data
+	edma 2 bytes
+	parameter structure to initialization
+	isr instead of callback
+	
